@@ -1,0 +1,54 @@
+{
+  "trained_at": "2025-12-06T15:58:31.425020",
+  "total_samples": 1470,
+  "train_samples": 1176,
+  "test_samples": 294,
+  "features": [
+    "Age",
+    "DailyRate",
+    "DistanceFromHome",
+    "Education",
+    "EnvironmentSatisfaction",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobSatisfaction",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager",
+    "BusinessTravel",
+    "Department",
+    "EducationField",
+    "Gender",
+    "JobRole",
+    "MaritalStatus",
+    "OverTime"
+  ],
+  "metrics": {
+    "logistic_regression": {
+      "accuracy": 0.7517,
+      "precision": 0.3673,
+      "recall": 0.766,
+      "f1": 0.4966,
+      "roc_auc": 0.8074
+    },
+    "random_forest": {
+      "accuracy": 0.8367,
+      "precision": 0.4706,
+      "recall": 0.1702,
+      "f1": 0.25,
+      "roc_auc": 0.777
+    }
+  }
+}
